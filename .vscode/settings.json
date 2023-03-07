@@ -1,0 +1,15 @@
+{
+    "git.allowForcePush": true,
+    "git.allowNoVerifyCommit": true,
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "git.autofetch": "all",
+    "git.autoStash": true,
+    "git.branchRandomName.enable": true,
+    "git.branchSortOrder": "alphabetically",
+    "git.enableSmartCommit": true,
+    "git.fetchOnPull": true,
+    "git.postCommitCommand": "sync",
+    "git.rememberPostCommitCommand": true,
+    "git.smartCommitChanges": "all",
+    "git.useCommitInputAsStashMessage": true
+}
