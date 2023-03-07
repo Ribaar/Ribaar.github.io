@@ -7,19 +7,18 @@ body {
     padding: 0px;
     margin: 0px;
     border: 0px;
+    align-content: center;
     grid-template-areas:navbar
                         mainpage;
     grid-template-columns: max-content;
     grid-template-rows: max-content max-content;
-}
-nav {
-    grid-area: navbar;
 }
 .boxmenu {
     background: #260132;
     width: 100%;
     height: 50px;
     position: absolute;
+    grid-area: navbar;
     z-index: 7;
 }
 .paddingsamping {
@@ -136,6 +135,7 @@ svg {
     position: absolute;
 }
 .paddingpage {
+    align-content: center;
     grid-template-areas:topmanga
                         histori
                         terbaru;
