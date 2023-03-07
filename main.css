@@ -144,4 +144,5 @@ svg {
 .topmanga {
     grid-area: topmanga;
     height: 6rem;
+    width: 100%;
 }
