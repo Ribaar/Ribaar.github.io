@@ -142,5 +142,6 @@ svg {
     grid-template-rows: max-content max-content max-content;
 }
 .topmanga {
-    
+    grid-area: topmanga;
+    height: 6 rem;
 }
