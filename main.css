@@ -16,9 +16,8 @@ body {
     background: #260132;
     width: 100%;
     height: 50px;
-    position: absolute;
     grid-area: navbar;
-    z-index: 7;
+    z-index: 10;
 }
 .paddingsamping {
     height: inherit;
