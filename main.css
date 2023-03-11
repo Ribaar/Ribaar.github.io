@@ -1,22 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Roboto-Light);
 body {
-    display: grid;
+    display: flex;
     background: black;
     padding: 0px;
     margin: 0px;
     border: 0px;
     align-content: center;
-    grid-template-areas:navbar
-                        mainpage;
-    grid-template-columns: max-content;
-    grid-template-rows: max-content max-content;
+    flex-direction: column;
 }
 .boxmenu {
     background: #260132;
     width: 100%;
     height: 50px;
-    grid-area: navbar;
     z-index: 10;
 }
 .paddingsamping {
@@ -27,13 +23,8 @@ body {
 .kumpulanitem {
     height: inherit;
     align-items: center;
-    display: grid;
-    grid-template-areas: "itembutton search akun";
-    grid-template-columns: max-content auto max-content;
-    grid-template-rows: auto;
-}
+    display: flex;
 .itembutton {
-    grid-area: itembutton;
     margin-inline-end: 40px;
 }
 .box {
@@ -48,7 +39,6 @@ body {
     padding: 4px 15px;
     margin-inline: 7px;
     border-radius: 50px;
-    float: left;
 }
 .active {
     font-family: "Roboto";
@@ -64,7 +54,6 @@ svg {
     align-items: center;
 }
 .search {
-    grid-area: search;
     width: 100%;
     height: 26px;
     background-color: #670288;
@@ -88,7 +77,6 @@ svg {
     display: flex;
     font-family: "Roboto light";
     font-size: 15px;
-    white-space: nowrap;
     border: none;
     outline: none;
     left: 40px;
@@ -97,7 +85,6 @@ svg {
     -webkit-filter: brightness(200%);
 }
 .akun {
-    grid-area: akun;
     margin-inline-start: 40px;
 }
 .itemakun {

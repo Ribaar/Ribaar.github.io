@@ -1,0 +1,7 @@
+{
+    "key": "ctrl+alt+s",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+        "text": "git add . && git commit -a -m 'Update' && git push\u000D"
+    }
+}
